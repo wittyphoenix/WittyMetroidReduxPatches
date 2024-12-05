@@ -32,8 +32,9 @@ List of patches:
     * players can potentially enter Wrecked Ship from the back, which results in entering several rooms unpowered (not supposed to be possible)
     * the player may end up fighting Phantoon earlier than intended which will lead to frustration
   * How?
-    * this patch changes 1 bit located at:
-      * $081ED3
+    * this patch changes 2 bits located at:
+      * $081ED3 - dictates underwater walljump for default samus
+      * $081EDF - dictates underwater walljump for high jump boots
     * Value changed from 02 to 00
 
 **Reduced Map Detail**
