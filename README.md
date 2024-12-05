@@ -21,6 +21,21 @@ List of patches:
     * Redux values are 00 and 00 respectively
     * New values are C0 and 01 respectively
 
+**Revert Under Water Walljump**
+  * What?
+    * Super Metroid Redux includes several changes to the physics of the game which were carried over from the Project Base hack
+    * This patch reverts the physics of under water walljumps back to the original Super Metroid
+  * Why?
+    * Without this patch it is possible to navigate through Maridia early using very basic wall jump skills
+    * New players are likely to learn wall jump prior to wrecked ship, and could therefore end up deep in maridia earlier than intended
+    * while cool for experienced players, this would confuse new players and cause potential issues
+    * players can potentially enter Wrecked Ship from the back, which results in entering several rooms unpowered (not supposed to be possible)
+    * the player may end up fighting Phantoon earlier than intended which will lead to frustration
+  * How?
+    * this patch changes 1 bit located at:
+      * $081ED3
+    * Value changed from 02 to 00
+
 **Reduced Map Detail**
   * What?
     * Super Metroid Redux includes an improved map over the original. This patch removes or adjusts 2 of these changes:
@@ -39,8 +54,7 @@ List of patches:
     * Modifying HUD and pause map tiles using tlp
 
 **Potential future patches**
-* Remove under water wall jump introduced by Project Base
-  * Similar deal to the sand physics patch
+
 * Make the 1 way green gate from Maridia to Brinstar stay open
   * This is an annoying little noob trap... very easy for a new player to forgot these gates close behind you. forces you to repeat a chunk of maridia if you forget.
 * Set autorun to "Off" as the default
