@@ -59,6 +59,8 @@ List of patches:
   * This is an annoying little noob trap... very easy for a new player to forgot these gates close behind you. forces you to repeat a chunk of maridia if you forget.
 * Set autorun to "Off" as the default
   * Redux has it "on" by default. significantly changes the pace of the game imo
+* Remove ability for powerbomb to reveal tiles
+  * this feature feels redundant to me with X Ray already in the game
 
 **Credits**:
 
