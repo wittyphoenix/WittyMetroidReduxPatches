@@ -89,4 +89,5 @@ Benox50	Original Hacking	Pause map fix during Kraid's fight (caused by DC's Map 
 HAM	Original Hacking	Suits Pickup fixes
 
 Crashtour99	Original Hacking	Dual Suit hack
+
 Starry_Melody	Graphics	Power Suit Samus graphics
