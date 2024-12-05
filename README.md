@@ -15,7 +15,7 @@ List of patches:
     * players can potentially enter Wrecked Ship from the back, which results in entering several rooms unpowered (not supposed to be possible)
     * the player may end up fighting Phantoon earlier than intended which will lead to frustration
   * How?
-    * this patch changes 2 bits located at:
+    * this patch changes 2 values located at:
       * $0234B8
       * $0234BD
     * Redux values are 00 and 00 respectively
@@ -32,7 +32,7 @@ List of patches:
     * players can potentially enter Wrecked Ship from the back, which results in entering several rooms unpowered (not supposed to be possible)
     * the player may end up fighting Phantoon earlier than intended which will lead to frustration
   * How?
-    * this patch changes 2 bits located at:
+    * this patch changes 2 values located at:
       * $081ED3 - dictates underwater walljump for default samus
       * $081EDF - dictates underwater walljump for high jump boots
     * Value changed from 02 to 00
@@ -57,7 +57,7 @@ List of patches:
 **Potential future patches**
 
 * Make the 1 way green gate from Maridia to Brinstar stay open
-  * This is an annoying little noob trap... very easy for a new player to forgot these gates close behind you. forces you to repeat a chunk of maridia if you forget.
+  * This is an annoying little noob trap... very easy for a new player to forget these gates close behind you. forces you to repeat a chunk of maridia if you forget.
 * Set autorun to "Off" as the default
   * Redux has it "on" by default. significantly changes the pace of the game imo
 * Remove ability for powerbomb to reveal tiles
