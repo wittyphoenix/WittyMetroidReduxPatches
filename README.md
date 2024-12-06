@@ -59,7 +59,7 @@ List of patches:
 * Make the 1 way green gate from Maridia to Brinstar stay open
   * This is an annoying little noob trap... very easy for a new player to forget these gates close behind you. forces you to repeat a chunk of maridia if you forget.
 * Set autorun to "Off" as the default
-  * Redux has it "on" by default. significantly changes the pace of the game imo
+  * Redux has it "on" by default.
 * Remove ability for powerbomb to reveal tiles
   * this feature feels redundant to me with X Ray already in the game
 * Revert control freak
@@ -68,6 +68,8 @@ List of patches:
 **Credits**:
 
 **Wittyphoenix** created the patches contained in this repo
+
+**GoodLuckTrying** - created separate IPS patches for boss icons and door color changes
 
 **Original Super Metroid Redux credits are listed below:**
 
