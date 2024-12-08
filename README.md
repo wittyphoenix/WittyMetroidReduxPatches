@@ -72,7 +72,7 @@ List of patches:
 
 **Original Super Metroid Redux credits are listed below:**
 
-https://www.romhacking.net/hacks/4963/
+(https://github.com/ShadowOne333/Super-Metroid-Redux)
 
 Contributor	Type of contribution	Listed credit
 
