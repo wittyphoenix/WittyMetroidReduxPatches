@@ -62,8 +62,7 @@ List of patches:
   * Redux has it "on" by default.
 * Remove ability for powerbomb to reveal tiles
   * this feature feels redundant to me with X Ray already in the game
-* Revert control freak
-  * I like control freak's controls, but thinking having the option to remove it would benefit others
+
 
 **Credits**:
 
