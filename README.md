@@ -54,10 +54,21 @@ List of patches:
   * How?
     * Modifying HUD and pause map tiles using tlp
 
+**Red Gate**
+  * What?
+    * Replaces the Green Gate from Maridia to Brinstar with a Red Gate that will stay open once activated
+  * Why?
+    * The existing gate closes once you enter a different room, which is a common noob trap. Especially because there is a tempting save point right next to the gate
+    * The new gate allows this passage to be used indefinitely once the player activates the gate
+    * Made the gate red so that it is more obvious to the player that this gate will behave differently
+  * How?
+    * Added Single-Use gate PLMs using the "Single-Use Gates" patch from Oi27
+      * https://metroidconstruction.com/resource.php?id=706
+      * Used free space at $84F110 for this ASM
+    * Changed room 7A322 to reference the new PLMs
+
 **Potential future patches**
 
-* Make the 1 way green gate from Maridia to Brinstar stay open
-  * This is an annoying little noob trap... very easy for a new player to forget these gates close behind you. forces you to repeat a chunk of maridia if you forget.
 * Set autorun to "Off" as the default
   * Redux has it "on" by default.
 * Remove ability for powerbomb to reveal tiles
@@ -69,6 +80,8 @@ List of patches:
 **Wittyphoenix** created the patches contained in this repo
 
 **GoodLuckTrying** - created separate IPS patches for boss icons and door color changes
+
+**Oi27** - wrote the ASM code for the new gate PLMs - https://metroidconstruction.com/resource.php?id=706
 
 **Original Super Metroid Redux credits are listed below:**
 
