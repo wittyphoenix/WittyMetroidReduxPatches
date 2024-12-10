@@ -66,11 +66,18 @@ List of patches:
       * https://metroidconstruction.com/resource.php?id=706
       * Used free space at $84F110 for this ASM
     * Changed room 7A322 to reference the new PLMs
+   
+**Vanilla Button Mapping**
+  * What?
+    * Sets the face buttons back to the original default mapping. Also sets auto-run to off by default
+  * Why?
+    * Movement is too quick with run constantly enabled
+    * default button mapping makes more sense for manually using the run button
+  * How?
+    * VanillaButtonMapping.ASM
 
 **Potential future patches**
 
-* Set autorun to "Off" as the default
-  * Redux has it "on" by default.
 * Remove ability for powerbomb to reveal tiles
   * this feature feels redundant to me with X Ray already in the game
 
