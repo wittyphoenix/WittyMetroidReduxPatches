@@ -74,7 +74,7 @@ List of patches:
     * Movement is too quick with run constantly enabled
     * default button mapping makes more sense for manually using the run button
   * How?
-    * VanillaButtonMapping.ASM
+    * Apply VanillaButtonMapping.ASM using ASAR
 
 **Potential future patches**
 
