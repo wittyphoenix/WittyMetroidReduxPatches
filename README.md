@@ -20,7 +20,7 @@ List of patches:
      * Original Sand Physics
      * Original Underwater Waljump
      * No mini boss markers
-     * No door colors (but doors are still there, unlike original Super Metroid)
+     * No door colors on map (but doors are still there, unlike original Super Metroid)
      * Red Gate patch (details below)
      * Original default button mapping
      * Power bomb does not reveal tiles
