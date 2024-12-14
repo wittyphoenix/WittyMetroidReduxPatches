@@ -76,10 +76,13 @@ List of patches:
   * How?
     * Apply VanillaButtonMapping.ASM using ASAR
 
-**Potential future patches**
-
-* Remove ability for powerbomb to reveal tiles
-  * this feature feels redundant to me with X Ray already in the game
+**DefaultPowerBomb**
+   * What?
+     * Power Bomb no longer reveals tiles
+   * Why?
+     * X-Ray scope already exists
+   * How?
+     * Reverted changes documented here: https://github.com/ShadowOne333/Super-Metroid-Redux/blob/master/code/Bugfixes/PBRevealTiles.asm
 
 
 **Credits**:
