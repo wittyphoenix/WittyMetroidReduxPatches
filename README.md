@@ -4,7 +4,25 @@ while maintaining the overall experience of the original game.
 To apply these patches you first need to obtain a version of Super Metroid with the Super Metroid Redux patch applied. You can then apply these patches on top of that.
 
 List of patches:
-
+**Super Metroid De-dux**
+ * What?
+   * This is the only patch in this repo that can be applied on a vanilla super metroid rom
+   * This patch is just a quick way to apply Redux + a number of optional patches, including mine
+   * My recommended way to play Super Metroid for new players
+   * This patch includes Redux, all the optional patches available from Redux that revert things closer to Super Metroid, and all the patches in this repo.
+   * Differences vs base redux:
+     * Original Speed Boost
+     * Original X Ray scope
+     * Original Elevator Speed
+     * Original Beam cool down
+     * Original Demos
+     * Original Sand Physics
+     * Original Underwater Waljump
+     * No mini boss markers
+     * No door colors (but doors are still there, unlike original Super Metroid)
+     * Red Gate patch (details below)
+     * Original default button mapping
+     * Power bomb does not reveal tiles
 **Original Sand Physics**
   * What?
     * Super Metroid Redux includes several changes to the physics of the game which were carried over from the Project Base hack
@@ -65,7 +83,7 @@ List of patches:
     * Added Single-Use gate PLMs using the "Single-Use Gates" patch from Oi27
       * https://metroidconstruction.com/resource.php?id=706
       * Used free space at $84F110 for this ASM
-    * Changed room 7A322 to reference the new PLMs
+    * Changed room 7A322 to reference the new PLMs using SMILE RF
    
 **Vanilla Button Mapping**
   * What?
