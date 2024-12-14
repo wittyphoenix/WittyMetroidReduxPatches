@@ -107,7 +107,9 @@ List of patches:
 
 **Credits**:
 
-**Wittyphoenix** created the patches contained in this repo
+**Wittyphoenix** - created the patches contained in this repo
+
+**ShadowOne333** - created Super Metroid Redux
 
 **GoodLuckTrying** - created separate IPS patches for boss icons and door color changes
 
