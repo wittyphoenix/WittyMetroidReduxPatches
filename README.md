@@ -24,6 +24,7 @@ List of patches:
      * Red Gate patch (details below)
      * Original default button mapping
      * Power bomb does not reveal tiles
+       
 **Original Sand Physics**
   * What?
     * Super Metroid Redux includes several changes to the physics of the game which were carried over from the Project Base hack
