@@ -4,6 +4,7 @@ while maintaining the overall experience of the original game.
 To apply these patches you first need to obtain a version of Super Metroid with the Super Metroid Redux patch applied. You can then apply these patches on top of that.
 
 List of patches:
+
 **Super Metroid De-dux**
  * What?
    * This is the only patch in this repo that can be applied on a vanilla super metroid rom
