@@ -23,7 +23,6 @@ List of patches:
      * No door colors on map (but doors are still there, unlike original Super Metroid)
      * Red Gate patch (details below)
      * Original default button mapping
-     * Power bomb does not reveal tiles
      * Revert Smooth Landing (it's a good feature, but unfortunately is buggy. see below)
        
 **Original Sand Physics**
@@ -96,14 +95,6 @@ List of patches:
     * default button mapping makes more sense for manually using the run button
   * How?
     * Apply VanillaButtonMapping.ASM using ASAR
-
-**DefaultPowerBomb**
-   * What?
-     * Power Bomb no longer reveals tiles
-   * Why?
-     * X-Ray scope already exists
-   * How?
-     * Reverted changes documented here: https://github.com/ShadowOne333/Super-Metroid-Redux/blob/master/code/Bugfixes/PBRevealTiles.asm
 
 **Revert Smooth Landing**
   * What?
