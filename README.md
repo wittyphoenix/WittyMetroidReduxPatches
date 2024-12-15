@@ -5,7 +5,7 @@ To apply these patches you first need to obtain a version of Super Metroid with 
 
 List of patches:
 
-**Super Metroid De-dux**
+**Super Metroid Dedux**
  * What?
    * This is the only patch in this repo that can be applied on a vanilla super metroid rom
    * This patch is just a quick way to apply Redux + a number of optional patches, including mine
@@ -24,6 +24,7 @@ List of patches:
      * Red Gate patch (details below)
      * Original default button mapping
      * Power bomb does not reveal tiles
+     * Revert Smooth Landing (it's a good feature, but unfortunately is buggy. see below)
        
 **Original Sand Physics**
   * What?
@@ -103,6 +104,15 @@ List of patches:
      * X-Ray scope already exists
    * How?
      * Reverted changes documented here: https://github.com/ShadowOne333/Super-Metroid-Redux/blob/master/code/Bugfixes/PBRevealTiles.asm
+
+**Revert Smooth Landing**
+  * What?
+    * Remove the feature from project base which allows you to maintain your speed / momentum when landing from a jump
+  * Why?
+    * This feature has a bugged interaction with the moving spiked platforms in Wrecked Ship and Lower Norfair.
+    * If you land on these platforms and the smooth landing code triggers, you will partially clip through and take ig damage from the spikes
+  * How?
+    * Revert changes documented here: https://github.com/ShadowOne333/Super-Metroid-Redux/blob/master/code/Smooth%20Landing/Smooth%20Landing.asm
 
 
 **Credits**:
